@@ -2,7 +2,11 @@
 django-view-permission
 ====================
 
-View permissions to Django admin
+Experimental implementation of view permissions to Django admin.
+
+This application experiment to impement view permissions as stand alone application. Then I decided, that it would be simpler and more effective to achieve this by submitting patch to Django itself. My (and others) effort on this field resulted in Django patch, that can be found at https://code.djangoproject.com/ticket/8936 and https://github.com/django/django/pull/6734
+
+This code probably doesn't work, but can be used as inspiration for rewriting Django patch to standalone application prior it is submited to upstream Django.
 
 Installation
 ------------
