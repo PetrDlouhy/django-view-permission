@@ -7,15 +7,21 @@ View permissions to Django admin
 Installation
 ------------
 
-1. This library is on PyPI so you can install it with::
+1. This library is on PyPI so you can install it with:
+
+.. code-block:: bash
 
     pip install django-view-permission
 
-or from github::
+or from github:
+
+.. code-block:: bash
 
     pip install git+https://github.com/PetrDlouhy/django-view-permission#egg=django-view-permission
 
-2. Add "view_permission" to your INSTALLED_APPS setting like this::
+2. Add ``view_permission`` to your ``INSTALLED_APPS`` setting like this:
+
+.. code-block:: python
 
     INSTALLED_APPS = (
         ...
@@ -25,7 +31,9 @@ or from github::
 Usage
 -----
 
-Just use it the mixin::
+Just use it the mixin:
+
+.. code-block:: python
 
    from view_permission.admin import ViewPermissionMixin
 
